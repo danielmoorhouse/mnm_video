@@ -22,8 +22,8 @@ get_header();
 
 			the_post_navigation(
 				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'lodc' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'lodc' ) . '</span> <span class="nav-title">%title</span>',
+					'prev_text' => '<span class="btn btn-info" style="width:50%;float:left;border-radius:0!important;font-size:20px;font-weight:bold;">' . esc_html__( 'Previous: ', 'lodc' ) . '<span class="nav-title">%title</span></span>',
+					'next_text' => '<span class="btn btn-success" style="width:50%;float:left;border-radius:0!important;font-size:20px;font-weight:bold;">' . esc_html__( 'Next:', 'lodc' ) . '<span class="nav-title">%title</span></span>',
 				)
 			);
 

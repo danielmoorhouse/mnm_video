@@ -10,7 +10,7 @@
 ?>
 
 <div class="row">
-<h1><?php the_title() ?></h1>
+<h1><?php the_title() ?><span><?php the_field('video_category') ?></span></h1>
 <?php if(get_field('video_provider') === "YouTube") : ?>
 <div class="col-md-12 iframe-container">
 <iframe src="https://www.youtube.com/embed/<?php the_field('youtube_video_id') ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
